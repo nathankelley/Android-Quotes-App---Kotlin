@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelloWorldKotlin</string>
+    <string name="hello_nathan">Hello Nathan!</string>
+    <string name="intro">Pick Your Quote!</string>
+    <string name="kjv_bible">KJV Bible</string>
+    <string name="the_quran">The Quran</string>
+    <string name="book_of_mormon">Book of Mormon</string>
+</resources>

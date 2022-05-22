@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0C690"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:id="@+id/quoteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/intro"
+        android:textColor="#F76DB5"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/kjvBibleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/kjv_bible"
+        android:backgroundTint="@color/textBlue"
+        />
+
+    <Button
+        android:id="@+id/quranButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/the_quran"
+        android:backgroundTint="@color/textBlue"
+        />
+
+    <Button
+        android:id="@+id/bomButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/book_of_mormon"
+        android:textSize="11sp"
+        android:backgroundTint="@color/textBlue"
+        />
+
+    <TextView
+        android:id="@+id/quoteView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="16dp"
+        android:textColor="#F76DB5"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
